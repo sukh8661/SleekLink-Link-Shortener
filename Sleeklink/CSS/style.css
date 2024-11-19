@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #1a1a40, #2a2a72); 
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+    animation: fadeIn 1s ease-in-out;
+    border: 1px solid #ffd700; 
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #ffd700;
+}
+
+.description1 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    color: #e0e0e0;
+}
+
+.description2 {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
+
+.url-input {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.url-input input {
+    padding: 10px;
+    border: 1px solid #ffd700; 
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1rem;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    outline: none;
+    transition: box-shadow 0.3s ease;
+}
+
+.url-input input:focus {
+    box-shadow: 0 0 10px #ffd700;
+}
+
+.url-input button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #ffd700;
+    color: #1a1a40; 
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.url-input button:hover {
+    transform: scale(1.05);
+    background: #e0c900; 
+}
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#result p {
+    margin-bottom: 10px;
+    color: #e0e0e0;
+}
+
+.shortened-link {
+    color: #ffd700; 
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.shortened-link:hover {
+    color: #fff;
+}
+
+.copy-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #1b1b54; 
+    color: #ffd700; 
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.copy-btn:hover {
+    transform: scale(1.05);
+    background: #1a1a40; 
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #e0e0e0;
+    font-size: 0.9rem;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

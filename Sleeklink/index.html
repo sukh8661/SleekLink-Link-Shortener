@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SleekLink</title>
+    
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+    <div class="main">
+        <div id="container">
+            <h1>SleekLink</h1>
+            <p class="description1">Welcome to SleekLink - Link Shortener</p>
+            <p class="description2">Transform long links into sleek, shareable URLs instantly!</p>
+
+            <div class="url-input">
+                <input type="url" id="urlInput" placeholder="Paste your URL here">
+                <button onclick="shortenURL()" id="shortenBtn">Shorten</button>
+            </div>
+
+            <div id="result" style="display: none;">
+                <p>Shortened URL:</p>
+                <a href="" target="_blank" id="shortenedURL" class="shortened-link"></a>
+                <button onclick="copyToClipboard()" class="copy-btn">Copy Link</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p class="copyright">© 2024 SleekLink. Created by Sukhpreet Singh.</p>
+    </footer>
+
+    <!-- Script JS -->
+    <script src="JS/script.js"></script>
+</body>
+</html>
+
