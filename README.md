@@ -72,3 +72,4 @@ This project is **licensed under the MIT License**. Feel free to use, modify, an
 🔥 **Enjoy using SleekLink!** 🔥  
 🎯 Transform your long URLs into short, elegant, and shareable links in seconds! 🎯  
 
+Made with ❤️ by **Sukhpreet Singh**
